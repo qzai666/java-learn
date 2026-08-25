@@ -5,5 +5,7 @@
   "[java]": {
     "editor.defaultFormatter": "redhat.java",
     "editor.formatOnSave": true
-  }
+},
+"maven.view": "hierarchical",
+"maven.executable.path": "/opt/homebrew/bin/mvn"
 }
