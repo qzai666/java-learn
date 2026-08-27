@@ -1,0 +1,15 @@
+package com.heima;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RestController // 请求处理类
+public class HelloController {
+
+    @RequestMapping("/hello")
+    public String requestMethodName(String name) {
+        System.out.println("name:" + name);
+        return "Hello" + name;
+    }
+
+}
